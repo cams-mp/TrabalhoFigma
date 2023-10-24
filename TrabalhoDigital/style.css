@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0C0B10;
+    color: white;
+    margin: 0;
+    padding: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #32374B;
+    border-radius: 15px;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color: #ff414d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn button:hover {
+    background-color: #e32f44;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+    padding: 5% 0;
+}
+
+.content h1 {
+    text-align: left;
+    font-size: 100px;
+}
+
+.content button {
+    padding: 10px 20px;
+    background-color: #ff414d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.content button:hover {
+    background-color: #e32f44;
+}
+
+.image-section img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 130px;
+}
+
